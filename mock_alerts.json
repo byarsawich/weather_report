@@ -1,0 +1,166 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  }
+	}
+		,"query_zone": "418",
+	"alerts": [
+		{
+		"type": "WND",
+		"description": "Wind Advisory",
+		"date": "3:35 am MST on February 22, 2016",
+		"date_epoch": "1456137300",
+		"expires": "8:00 PM MST on February 22, 2016",
+		"expires_epoch": "1456196400",
+		"tz_short":"MST",
+		"tz_long":"America/Denver",
+		"message": "\u000A...Wind Advisory in effect from 2 PM this afternoon to 8 PM MST\u000Athis evening...\u000A\u000AThe National Weather Service in El Paso TX/Santa Teresa has\u000Aissued a Wind Advisory...which is in effect from 2 PM this\u000Aafternoon to 8 PM MST this evening. \u000A\u000A* Timing...west winds will increase early this afternoon and\u000A attain maximum speeds between 4 PM and 6 PM before gradually\u000A diminishing.\u000A\u000A* Winds...west winds will have sustained speeds from 25 to 35 mph\u000A with gusts to 50 mph.\u000A\u000A* Impacts...winds will create difficult driving conditions\u000A especially for high profile vehicles. Blowing dust will also\u000A lower the visibility to less than a mile over isolated locations\u000A including portions of Interstate 10 between El Paso and Las\u000A Cruces and also around the Deming and Lordsburg vicinities.\u000A Loose objects may be blown around and smaller trees may be blown\u000A down.\u000A\u000APrecautionary/preparedness actions...\u000A\u000AA Wind Advisory means that winds of 35 mph are expected. Winds\u000Athis strong can make driving difficult...especially for high\u000Aprofile vehicles. Use extra caution.\u000A\u000A\u000A\u000ARogash\u000A\u000A\u000A\u000A",
+		"phenomena": "WI",
+		"significance": "Y",
+		"ZONES": [
+		{
+		"state":"NM",
+		"ZONE":"402"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"403"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"404"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"405"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"406"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"407"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"408"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"410"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"411"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"413"
+		}
+		,
+		{
+		"state":"TX",
+		"ZONE":"418"
+		}
+		,
+		{
+		"state":"TX",
+		"ZONE":"419"
+		}
+		,
+		{
+		"state":"TX",
+		"ZONE":"420"
+		}
+		,
+		{
+		"state":"TX",
+		"ZONE":"423"
+		}
+		],
+		"StormBased": {
+		}
+		}
+		,
+		{
+		"type": "FIR",
+		"description": "Fire Weather Warning",
+		"date": "6:50 am MST on February 22, 2016",
+		"date_epoch": "1456149000",
+		"expires": "7:00 PM MST on February 22, 2016",
+		"expires_epoch": "1456192800",
+		"tz_short":"MST",
+		"tz_long":"America/Denver",
+		"message": "\u000A...Red flag warning in effect from 11 am this morning to 7 PM MST\u000Athis evening for strong winds and low relative humidity...\u000A\u000AThe National Weather Service in El Paso TX/Santa Teresa has\u000Aissued a red flag warning...which is in effect from 11 am this\u000Amorning to 7 PM MST this evening. The Fire Weather Watch is no\u000Alonger in effect. \u000A\u000A* Affected area...fire weather zone 055.\u000A\u000A* 20-foot wind...west-northwest 20 to 30 mph\u000A\u000A* humidity...8 to 12 percent.\u000A\u000A* Impacts...any fires that develop will likely spread rapidly. \u000A Outdoor burning is not recommended.\u000A\u000APrecautionary/preparedness actions...\u000A\u000A\u000APrecautionary/preparedness actions...\u000A\u000AA red flag warning means that critical fire weather conditions\u000Aare either occurring now....or will shortly. A combination of\u000Astrong winds...low relative humidity...and warm temperatures can\u000Acontribute to extreme fire behavior.\u000A\u000A\u000A\u000A\u000A\u000A\u000A",
+		"phenomena": "FW",
+		"significance": "W",
+		"ZONES": [
+		{
+		"state":"NM",
+		"ZONE":"408"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"409"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"410"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"411"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"412"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"413"
+		}
+		,
+		{
+		"state":"NM",
+		"ZONE":"525"
+		}
+		,
+		{
+		"state":"TX",
+		"ZONE":"418"
+		}
+		,
+		{
+		"state":"TX",
+		"ZONE":"419"
+		}
+		,
+		{
+		"state":"TX",
+		"ZONE":"423"
+		}
+		],
+		"StormBased": {
+		}
+		}
+	]
+}
