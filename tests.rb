@@ -12,17 +12,18 @@ class Condition
   end
 end
 
-#   def get_location
-#     JSON.parse(File.read('./mock_conditions.json'))["current_observation"]["display_location"]
-#   end
+class Astronomy
+  def initialize
+    @response = JSON.parse(File.read('./mock_astronomy.json'))
+  end
+end
+
+
 #
 #   def get_alerts
 #     JSON.parse(File.read('./mock_alerts.json'))
 #   end
-#
-#   def get_astronomy
-#     JSON.parse(File.read('./mock_astronomy.json'))
-#   end
+
 #
 #   def get_hurricane
 #     JSON.parse(File.read('./mock_hurricane.json'))
@@ -31,14 +32,14 @@ end
 #   def get_forecast
 #     JSON.parse(File.read('./mock_forecast.json'))
 #   end
-# end
+
 
 
 class WeatherReportTest < Minitest::Test
   def test_classes_exist
     assert Condition
     assert ForecastDay
-    assert Astronamy
+    assert Astronomy
     assert Alert
     assert Hurricane
   end
@@ -50,7 +51,9 @@ class WeatherReportTest < Minitest::Test
   end
 
   def test_create_astronomy
-
+    a = Astronomy.new
+    assert_equal "6:54", a.sunrise
+    assert_equal "18:02", a.sunset
   end
 
 end
