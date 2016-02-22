@@ -1,3 +1,4 @@
+require 'httparty'
 class Astronomy
   def initialize(zip_code)
     @response = HTTParty.get("http://api.wunderground.com/api/#{ENV["WUNDERGROUND_KEY"]}/astronomy/q/#{@zip_code}.json")
