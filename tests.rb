@@ -28,11 +28,11 @@ class Forecast
   end
 end
 
-#   def get_hurricane
-#     JSON.parse(File.read('./mock_hurricane.json'))
-#   end
-
-
+class Hurricane
+  def initialize
+    @response = JSON.parse(File.read('./mock_hurricane.json'))
+  end
+end
 
 class WeatherReportTest < Minitest::Test
   def test_classes_exist
@@ -61,9 +61,27 @@ class WeatherReportTest < Minitest::Test
     assert_equal "Wind Advisory until 8:00 PM MST on February 22, 2016\nFire Weather Warning until 7:00 PM MST on February 22, 2016", a.alerts
   end
 
-  def test_create_forecast_and_display_10_day_forecast
+  def test_create_forecast_and_return_10_day_forecast
     f = Forecast.new
     assert_equal forecasts, f.get_forecast
+  end
+
+  def test_create_hurricane_and_return_all_current_hurricanes
+    h = Hurricane.new
+    assert_equal hurricanes, h.get_hurricanes
+  end
+
+  private def hurricanes
+    %Q{Storm Name: Invest 90C
+Category: -4
+Wind Speed: 35mph
+Current Location: 3.7, -171.3
+Speed: 5mph to the NNE
+Storm Name: Tropical Cyclone Winston
+Category: 2
+Wind Speed: 105mph
+Current Location: -18.2, 172.3
+Speed: 3mph to the S}
   end
 
   private def forecasts
