@@ -20,4 +20,4 @@ puts "The sunset will be at #{astronomy.sunset}"
 puts "The current weather alerts:"
 puts alert.alerts
 puts "The current hurricanes are:"
-puts hurricne.get_hurricanes
+puts hurricane.get_hurricanes

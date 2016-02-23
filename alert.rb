@@ -11,6 +11,7 @@ class Alert
   def alerts
     temp_array = @response["alerts"]
     string = ""
+    return "No Current Alerts" if temp_array.empty?
     temp_array.each do |a|
       string += "#{a["description"]} until #{a["expires"]}\n"
     end
