@@ -8,7 +8,7 @@ puts "Enter a zip code:"
 zip_code = gets.chomp
 
 condition = Condition.new(zip_code)
-forcast = Forecase.new(zip_code)
+forcast = Forecast.new(zip_code)
 astronomy = Astronomy.new(zip_code)
 alert = Alert.new(zip_code)
 hurricane = Hurricane.new(zip_code)

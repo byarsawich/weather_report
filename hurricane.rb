@@ -1,6 +1,6 @@
 class Hurricane
   def initialize(zip_code)
-    @response = HTTParty.get("http://api.wunderground.com/api/#{ENV["WUNDERGROUND_KEY"]}/currenthurricane/q/#{@zip_code}.json")
+    @response = HTTParty.get("http://api.wunderground.com/api/#{ENV["WUNDERGROUND_KEY"]}/currenthurricane/q/#{zip_code}.json")
   end
 
   def get_hurricanes
